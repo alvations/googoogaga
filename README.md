@@ -32,8 +32,15 @@ Docker Stuff
 ====
 
 ```
-git clone 
+git clone https://github.com/alvations/googoogaga.git
+cd googoogaga
 docker build -t speak . < Dockerfile
+
+# This is the file we want to input.
+cat inputfile.txt
+
+INFILE=inputfile.txt
+docker run -i -e INFILE=$INFILE speak /bin/bash -c "python3 speak.py $INFILE"
 ```
 
 
