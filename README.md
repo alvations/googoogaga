@@ -27,3 +27,13 @@ $ python3 speak.py inputfile.txt
 主 に 自動 販売 機 や コンビニエンスストア など で 販売 さ れ て いる 。	omo ni jidou hanbai ki ya konbiniensusutoa nado de hanbai sa re te iru 。	オモ ニ ジドウ ハンバイ キ ヤ コンビニエンスストア ナド デ ハンバイ サ レ テ イル 。
 チルドカップ や ペットボトル 入り の 製品 と 総括 し て レディ・トゥ・ドリンクコーヒー と も 呼ば れる 。	chirudokappu ya pettobotoru iri no seihin to soukatsu shi te redi・toxu・dorinkuko-hi- to mo yoba reru 。	チルドカップ ヤ ペットボトル イリ ノ セイヒン ト ソウカツ シ テ レディ・トゥ・ドリンクコーヒー ト モ ヨバ レル 
 ```
+
+Docker Stuff
+====
+
+```
+git clone 
+docker build -t speak . < Dockerfile
+```
+
+
