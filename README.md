@@ -8,6 +8,7 @@ Install
 sudo apt-get install libmecab-dev mecab mecab-ipadic-utf8
 sudo -H pip3 install mecab-python3
 sudo -H pip3 install jaconv
+sudo -H pip3 install romkan
 ```
 
 
